@@ -22,7 +22,7 @@ const Works = () => {
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>My Main -</span>
           <span>Tech Stack</span>
-          <spane>
+          <span>
             I am pre-dominantly a Javacript Developer
             <br />
             who is always looking out on learning new skills both soft & hard
@@ -31,7 +31,7 @@ const Works = () => {
             automations, artificial intelligence concepts
             <br />
             and the Web3 Blockchain Eco-System.
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>

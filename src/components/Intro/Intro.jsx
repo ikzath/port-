@@ -39,12 +39,18 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/ikzath">
-            <img src={Github} alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/ikzath">
-            <img src={LinkedIn} alt="" />
-          </a>
+          <img
+            src={Github}
+            alt=""
+            onClick={() => window.open("https://github.com/ikzath", "_blank")}
+          />
+          <img
+            src={LinkedIn}
+            alt=""
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/ikzath/", "_blank")
+            }
+          />
         </div>
       </div>
       {/* right image side */}

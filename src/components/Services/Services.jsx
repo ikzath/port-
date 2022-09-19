@@ -26,10 +26,10 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>Services</span>
         <span>that I offer</span>
-        <spane>
+        <span>
           With a wide range of technical skills & expertise
           <br />I build & design customized digital products to suit every need
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -46,7 +46,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Paint"}
+            detail={"Figma, sketch customized designs from scratch "}
           />
         </motion.div>
         {/* second card */}
